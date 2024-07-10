@@ -27,6 +27,14 @@ body {
     margin-bottom: 16px;
 }
 
+
+.title-secondary {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
 .btn-secondary {
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -35,12 +43,26 @@ body {
     margin-bottom: 10px;
 }
 
+.description-primary {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 43px;
+}
+
 .opa {
     opacity: 0.7;
 }
 
 .text-center {
     text-align: center;
+}
+
+.learn-more{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* nav styles */
@@ -133,12 +155,12 @@ main {
     border-radius: 16px;
 }
 
-.webDev-title {
+/* .webDev-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
-}
+} */
 
 .webDev-description {
     color: rgb(13, 19, 33);
@@ -201,9 +223,9 @@ main {
     margin: 0px 144px 48px 144px;
 }
 
-.inspiration-title {
+/* .inspiration-title {
     margin-bottom: 24px;
-}
+} */
 
 .inspiration-yt {
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -223,19 +245,13 @@ main {
 }
 
 
-/* sills styles */
+/* target styles */
 
 .target {
     margin-top: 150px;
 }
 
-.inspiration-title {
-    color: rgb(13, 19, 33);
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.inspiration-description {
+.target-description {
     margin-bottom: 48px;
 }
 
@@ -285,4 +301,35 @@ main {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+
+/* next-items styles */
+.next {
+    margin-top: 111px;
+}
+
+.next-content {
+    margin-bottom: 48px;
+}
+
+.next-item {
+    gap: 24px;
+    padding: 40px;
+    border: 2px solid red;
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+/* .next-items{
+    gap: 24px;
+} */
+
+.item-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
 }
